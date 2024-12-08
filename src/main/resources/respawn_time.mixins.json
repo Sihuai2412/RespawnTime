@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.sihuai.respawn_time.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "respawn_time.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "DeathScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
