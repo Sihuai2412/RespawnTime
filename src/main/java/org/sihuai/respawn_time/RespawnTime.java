@@ -13,6 +13,6 @@ public class RespawnTime {
     public static final String MOD_ID = "respawn_time";
 
     public RespawnTime(IEventBus modEventBus, ModContainer modContainer) {
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        Config.register(modContainer);
     }
 }

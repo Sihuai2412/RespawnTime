@@ -1,6 +1,5 @@
 package org.sihuai.respawn_time.util;
 
-import net.minecraft.client.player.LocalPlayer;
 import org.sihuai.respawn_time.Config;
 
 import java.util.Random;
